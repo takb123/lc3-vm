@@ -1,25 +1,25 @@
 # lc3-vm
 This is a Virtual Machine written in C simulating the [LC3](https://en.wikipedia.org/wiki/Little_Computer_3). [^1]
 ## Usage
-1. Compile `lc3.c`
+1. Compile `src/lc3.c`
 
 Using clang:
 ```console
-clang -o lc3 lc3.c
+clang -o lc3 src/lc3.c
 ```
 Using gcc:
 ```console
-gcc -o lc3 lc3.c
+gcc -o lc3 src/lc3.c
 ```
 
 2. Run the VM while passing in the `.obj` games[^2]
 
 ```console
-./lc3 2048.obj
+./lc3 games/2048.obj
 ```
 
 ```console
-./lc3 rogue.obj
+./lc3 games/rogue.obj
 ```
 
 
