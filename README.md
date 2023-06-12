@@ -5,21 +5,21 @@ This is a Virtual Machine written in C simulating the [LC3](https://en.wikipedia
 
 Using clang:
 ```console
-clang -o lc3 src/lc3.c
+$ clang -o lc3 src/lc3.c
 ```
 Using gcc:
 ```console
-gcc -o lc3 src/lc3.c
+$ gcc -o lc3 src/lc3.c
 ```
 
 2. Run the VM while passing in the `.obj` games[^2]
 
 ```console
-./lc3 games/2048.obj
+$ ./lc3 games/2048.obj
 ```
 
 ```console
-./lc3 games/rogue.obj
+$ ./lc3 games/rogue.obj
 ```
 
 
